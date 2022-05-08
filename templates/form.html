@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+
+{% block main %}
+
+<h2>
+    Please, answer the following questions
+</h2>
+<form action="/results" method="post">
+    <section>
+        {% for key, value in questions.items() %}
+            <p>Question: {{ key['questions'] }}</p>
+            {% for k, v in value['options'].items() %}
+                <input type="radio" name="{{ key }}" value="{{ k }}">
+                <label for="{{ key }}">{{ k }}</label><br>
+            {% endfor %}
+        {% endfor %}
+    </section>
+    <input type="submit" value="Submit">
+</form>
+
+{% endblock %}

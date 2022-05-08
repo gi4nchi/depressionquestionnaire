@@ -1,0 +1,35 @@
+{
+    "depressive_mode": {
+        "question": "Have you experienced depressive mood?",
+        "type": "severe",
+        "min_requirement_to_include": 2,
+        "options": {
+            "No never": 0,
+            "Maybe a few times": 1,
+            "Yes, recently in the past two weeks": 2,
+            "Yes, recurrently": 3
+        }
+    },
+    "interest_loss": {
+        "question": "Have you experienced loss of interest or pleasure?",
+        "type": "severe",
+        "min_requirement_to_include": 2,
+        "options": {
+            "No never": 0,
+            "Maybe a few times": 1,
+            "Yes, recently in the past two weeks": 2,
+            "Yes, recurrently": 3
+        }
+    },
+    "energy_loss": {
+        "question": "Have you experienced loss of energy?",
+        "type": "severe",
+        "min_requirement_to_include": 2,
+        "options": {
+            "No never": 0,
+            "Maybe a few times": 1,
+            "Yes, recently in the past two weeks": 2,
+            "Yes, recurrently": 3
+        }
+    }
+}

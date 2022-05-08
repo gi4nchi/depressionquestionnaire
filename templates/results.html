@@ -1,0 +1,8 @@
+{% extends 'index.html' %}
+
+{% block main %}
+
+<p>Score {{ results['score'] }} </p>
+<p>severe {% if 'severe' in results %} {{ results['severe'] }} {% endif %}</p>
+
+{% endblock %}
